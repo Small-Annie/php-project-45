@@ -1,0 +1,12 @@
+{
+    "name": "hexlet/code",
+    "authors": [
+        {
+            "name": "Petrova Anna",
+            "email": "petr230999@gmail.com"
+        }
+    ],
+    "description": "hexlet brain-games",
+    "license": "MIT",
+    "require": {}
+}
