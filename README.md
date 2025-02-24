@@ -29,3 +29,11 @@ Player victory
 
 Player defeat
 [![asciicast](https://asciinema.org/a/VWgNaxxIbOzoHVCmVZ7VKbJWg.svg)](https://asciinema.org/a/VWgNaxxIbOzoHVCmVZ7VKbJWg)
+
+make brain-progression --- to play the game "Arithmetic progression"
+
+Player victory
+[![asciicast](https://asciinema.org/a/cvBeee9PvbbP2H3HUpvRAS7xc.svg)](https://asciinema.org/a/cvBeee9PvbbP2H3HUpvRAS7xc)
+
+Player defeat
+[![asciicast](https://asciinema.org/a/qfPCV2EPMarGIAX3TODL14rM9.svg)](https://asciinema.org/a/qfPCV2EPMarGIAX3TODL14rM9)
