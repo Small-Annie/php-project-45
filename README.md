@@ -21,3 +21,11 @@ Player victory
 
 Player defeat
 [![asciicast](https://asciinema.org/a/cgLzOtrh8rAqOfbLVz6Xmy3n6.svg)](https://asciinema.org/a/cgLzOtrh8rAqOfbLVz6Xmy3n6)
+
+make brain-gcd --- to play the game "Greatest common divisor"
+
+Player victory
+[![asciicast](https://asciinema.org/a/oz7bS7rPxYtMqd1Uvw368kP8W.svg)](https://asciinema.org/a/oz7bS7rPxYtMqd1Uvw368kP8W)
+
+Player defeat
+[![asciicast](https://asciinema.org/a/VWgNaxxIbOzoHVCmVZ7VKbJWg.svg)](https://asciinema.org/a/VWgNaxxIbOzoHVCmVZ7VKbJWg)
