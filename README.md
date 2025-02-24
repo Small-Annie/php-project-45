@@ -37,3 +37,11 @@ Player victory
 
 Player defeat
 [![asciicast](https://asciinema.org/a/qfPCV2EPMarGIAX3TODL14rM9.svg)](https://asciinema.org/a/qfPCV2EPMarGIAX3TODL14rM9)
+
+make brain-prime --- to play the game "Is the number prime?"
+
+Player victory
+[![asciicast](https://asciinema.org/a/7lfaJFacg7nhkNr0638ezEERD.svg)](https://asciinema.org/a/7lfaJFacg7nhkNr0638ezEERD)
+
+Player defeat
+[![asciicast](https://asciinema.org/a/meuJ5cnmI5rjvI8w1fQESQrq9.svg)](https://asciinema.org/a/meuJ5cnmI5rjvI8w1fQESQrq9)
