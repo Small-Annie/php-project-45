@@ -20,7 +20,7 @@ function isPrime(int $num): bool
 }
 
 
-function playGamePrime(): void 
+function playGamePrime(): void
 {
     $gameDescription = <<<END
     Answer "yes" if given number is prime. Otherwise answer "no".  

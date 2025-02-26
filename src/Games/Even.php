@@ -4,7 +4,7 @@ namespace Php\Project\Games\Even;
 
 use function Php\Project\Engine\playGame;
 
-function playGameEven(): void 
+function playGameEven(): void
 {
     $gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
     $game = function () {
