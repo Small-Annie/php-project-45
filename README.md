@@ -22,7 +22,7 @@
 4) "Arithmetic progression" (finding missing numbers in a sequence of numbers)
 5) "Is the number prime?"
 
-# Requirements
+# Требования \ Requirements
 
 * Mac / Linux
 * Php ^8.3
