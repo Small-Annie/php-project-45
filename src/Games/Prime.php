@@ -9,7 +9,6 @@ function isPrime(int $num): bool
     if ($num === 1) {
         return false;
     }
-    
     for ($divider = 2; $divider <= round($num / 2); $divider++) {
         if ($num % $divider === 0) {
             return false;
