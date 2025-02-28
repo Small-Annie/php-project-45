@@ -22,8 +22,8 @@ function playGameProgression(): void
         $progressionLength = rand(5, 10);
         $hiddenNumberIndex = rand(0, $progressionLength - 1);
         $progression = createProgression(
-            $firstNumber, 
-            $progressionStep, 
+            $firstNumber,
+            $progressionStep,
             $progressionLength
         );
         $correctAnswer = $progression[$hiddenNumberIndex];

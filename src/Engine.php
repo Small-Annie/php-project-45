@@ -28,7 +28,6 @@ function playGame(string $gameDescription, callable $playGame): void
             line("Let's try again, %s!", $name);
             return;
         }
-        
         line("Correct!");
     }
     line("Congratulations, %s!", $name);
