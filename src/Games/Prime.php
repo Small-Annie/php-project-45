@@ -20,9 +20,7 @@ function isPrime(int $num): bool
 
 function playGamePrime(): void
 {
-    $gameDescription = <<<END
-    Answer "yes" if given number is prime. Otherwise answer "no".  
-    END;
+    $gameDescription = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
     $game = function () {
         $number = rand(1, 100);
         $correctAnswer = isPrime($number) ? 'yes' : 'no';

@@ -7,7 +7,7 @@ use function cli\prompt;
 
 const ROUNDS = 3;
 
-function playGame(string $gameDescription, callable $game): void
+function playGame(string $gameDescription, callable $playGame): void
 {
     line('Welcome to the Brain Game!');
     $name = prompt('May I have your name?');
@@ -15,13 +15,11 @@ function playGame(string $gameDescription, callable $game): void
     line($gameDescription);
 
     for ($round = 1; $round <= ROUNDS; $round++) {
-        [$task, $correctAnswer] = $game();
+        [$task, $correctAnswer] = $playGame();
         line("Question: %s", $task);
         $playerAnswer = prompt("Your answer:");
 
-        if ($playerAnswer === $correctAnswer) {
-            line("Correct!");
-        } else {
+        if ($playerAnswer !== $correctAnswer) {
             line(
                 "'%s' is wrong answer ;(. Correct answer was '%s'.",
                 $playerAnswer,
@@ -30,7 +28,8 @@ function playGame(string $gameDescription, callable $game): void
             line("Let's try again, %s!", $name);
             return;
         }
+        
+        line("Correct!");
     }
-
     line("Congratulations, %s!", $name);
 }
