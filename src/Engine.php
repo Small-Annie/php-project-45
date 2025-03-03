@@ -5,7 +5,7 @@ namespace Php\Project\Engine;
 use function cli\line;
 use function cli\prompt;
 
-const ROUNDS = 3;
+const ROUNDS_COUNT = 3;
 
 function playGame(string $gameDescription, callable $playGame): void
 {
@@ -14,7 +14,7 @@ function playGame(string $gameDescription, callable $playGame): void
     line("Hello, %s!", $name);
     line($gameDescription);
 
-    for ($round = 1; $round <= ROUNDS; $round++) {
+    for ($round = 1; $round <= ROUNDS_COUNT; $round++) {
         [$task, $correctAnswer] = $playGame();
         line("Question: %s", $task);
         $playerAnswer = prompt("Your answer:");
